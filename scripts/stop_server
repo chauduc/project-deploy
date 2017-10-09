@@ -1,0 +1,6 @@
+#!/bin/bash
+isExistApp = `pgrep project-demo`
+if [[ -n  $isExistApp ]]; then
+    service project-demo stop        
+fi
+
