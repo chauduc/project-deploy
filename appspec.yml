@@ -12,4 +12,8 @@ hooks:
     - location: scripts/start_server
       timeout: 300
       runas: root
+  BeforeAllowTraffic:
+    - location: scripts/restart_server
+      timeout: 300
+      runas: root
 
